@@ -153,20 +153,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
     <script>
-        var menubtn = document.getElementById("menu-btn");
-        var navlinks = document.getElementById("nav-links");
-
-        navlinks.style.right = "-250px";
-        menubtn.onclick = function showmenu() {
-            if (navlinks.style.right == "-250px") {
-                navlinks.style.right = "0";
-            } else {
-                navlinks.style.right = "-250px";
-            }
-        }
-    </script>
-</body>
-        <a href="javascript.php">Java Script</a>
        <!DOCTYPE html>
 <html>
 <head>
@@ -235,5 +221,18 @@ input[type=submit]:hover {
 </body>
 </html>
 
+        var menubtn = document.getElementById("menu-btn");
+        var navlinks = document.getElementById("nav-links");
 
-</html>
+        navlinks.style.right = "-250px";
+        menubtn.onclick = function showmenu() {
+            if (navlinks.style.right == "-250px") {
+                navlinks.style.right = "0";
+            } else {
+                navlinks.style.right = "-250px";
+            }
+        }
+    </script>
+</body>
+        <a href="javascript.php">Java Script</a>
+       </html>
